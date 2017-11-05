@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pte.ttk.hu.tudaskozpont2.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/goButton"
+        android:layout_width="214dp"
+        android:layout_height="43dp"
+        android:layout_alignStart="@+id/searchEditText"
+        android:layout_alignTop="@+id/searchEditText"
+        android:layout_marginTop="56dp"
+        android:onClick="clickedButton"
+        android:text="Go" />
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="210dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="book identifier" />
+</RelativeLayout>
